@@ -3,7 +3,7 @@ Count Words in a String – Counts the number of individual words in a string.
 For added complexity read these strings in from a text file and generate a 
 summary.
 
-Problem
+Need Help with:
 1. how to ignore text inside triple quotes
 test2 = " '''hello''' does this work "
 try1 = re.findall(r'[^"{3}\w"{3}]+', test2)    
