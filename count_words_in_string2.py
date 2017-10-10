@@ -19,7 +19,7 @@ def count_words_in_string():
         print('\n')
     except FileNotFoundError:
         print("File not found.")
-    #read the file into a variable. THe read() method reads a string from an open 
+    #read the file into a variable. The read() method reads a string from an open 
     #file into a variable
     data = file_obj.read()
     #close the file
@@ -31,7 +31,7 @@ def count_words_in_string():
     print(summary(data_list, file_obj))
 
 
-def summary(data_list, file_obj):
+def summary(file_obj, data_list):
     return ("The file, '{}', contains {} individual words."\
           .format(file_obj.name, len(data_list)))
     
