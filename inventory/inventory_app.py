@@ -1,7 +1,6 @@
 from inventory import Product, Inventory, Inventory_Actions
 
 
-
 def main_menu():
     '''Returns user's choice of new or quit'''
     
